@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display= swap');
+
+:root {
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-destaque: 'Righteous', cursive;
+
+    --cor1:#00265C;
+    --cor2:#0046A8;
+    --cor3:#005BDB;
+    --cor4:#4485E1;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-padrao);
+}
+
+body {
+    background-color: rgb(255, 217, 171);
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    text-align: center;
+    min-height: 200px;
+    max-height: 1000px;
+}
+
+header h1 {
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    padding-top: 60px;
+}
+
+nav {
+    background-color: var(--cor1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+nav img {
+    width: 35px;
+    margin: 7px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.644);
+}
+
+nav img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.651);
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.562);
+    transition: transform .1s;
+}
+
+main {
+    display: block;
+    background-color: white;
+    min-width: 400px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0px 30px 30px 30px;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.233);
+}
+
+main h2 {
+    font-family: var(--font-destaque);
+    font-weight: lighter;
+    font-size: 1.7em;
+    color: var(--cor1);
+    padding: 10px 0px 20px;
+}
+
+main h3 {
+    color: var(--cor2);
+    padding: 10px 0px 10px;
+}
+
+main p {
+    line-height: 2em;
+    text-indent: 30px;
+    margin-bottom: 15px;
+}
+
+main ul.img1 {
+    background: #c4c466 url(imgs/imagem03.jpg) center center no-repeat fixed;
+    list-style-position: inside;
+    border-radius: 20px 0px;
+    height: 200px;
+    margin: 20px 0px 20px;
+    padding: 20px 0px 0px 30px;
+}
+
+main ul > li {
+    color: white;
+    font-size: 1.1em;
+    font-weight: lighter;
+    line-height: 2em;
+}
+
+main ul.img2 {
+    background: #c4c466 url(imgs/imagem01.jpg) center center no-repeat fixed;
+    list-style-position: inside;
+    border-radius: 20px 0px;
+    height: 350px;
+    padding: 20px 0px 0px 30px;
+}
+
+main img {
+    width: 60%;
+    margin: 0px 0px 20px 0px;
+}
+
+main strong {
+    color: var(--cor1);
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--cor1);
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+}
