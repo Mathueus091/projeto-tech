@@ -123,6 +123,7 @@ main strong {
 
 main a {
     color: black;
+    font-weight: bold;
     text-decoration: none;
 }
 
