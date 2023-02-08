@@ -108,9 +108,9 @@ main ul.img2 {
     background: #c4c466 url(imgs/imagem01.jpg) center center no-repeat fixed;
     list-style-position: inside;
     border-radius: 20px 0px;
-    min-height: 350px;
+    min-height: 400px;
     max-height: 500px;
-    padding: 20px 0px 0px 30px;
+    padding: 60px 0px 0px 30px;
 }
 
 main img {
