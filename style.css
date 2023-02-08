@@ -100,7 +100,7 @@ main ul.img1 {
 main ul > li {
     color: white;
     font-size: 1.1em;
-    font-weight: lighter;
+    font-weight: bold;
     line-height: 2em;
 }
 
@@ -108,7 +108,7 @@ main ul.img2 {
     background: #c4c466 url(imgs/imagem01.jpg) center center no-repeat fixed;
     list-style-position: inside;
     border-radius: 20px 0px;
-    min-height: 380px;
+    min-height: 360px;
     max-height: 500px;
     padding: 30px 0px 0px 30px;
 }
